@@ -13,3 +13,5 @@ node src/cli.js
 ```
 npm test -- --coverage
 ```
+
+<!-- smoke test OTTER41-125 2026-09-24T12:16:13.1871752+02:00 -->
