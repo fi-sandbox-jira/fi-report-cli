@@ -13,3 +13,5 @@ node src/cli.js
 ```
 npm test -- --coverage
 ```
+
+<!-- app-approval-check 2026-09-24T11:47:48.7959583+02:00 -->
