@@ -1,0 +1,27 @@
+{
+  "name": "fi-report-cli",
+  "version": "1.0.0",
+  "description": "Report CLI — small Node.js command-line tool, sample repository with low test coverage.",
+  "private": true,
+  "main": "src/cli.js",
+  "bin": {
+    "fi-report-cli": "src/cli.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "27.5.1"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "coverageReporters": [
+      "text-summary",
+      "lcov",
+      "json-summary"
+    ]
+  }
+}
