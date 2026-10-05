@@ -1,6 +1,6 @@
 {
   "name": "fi-report-cli",
-  "version": "1.0.0",
+  "version": "2026-release-1",
   "description": "Report CLI — small Node.js command-line tool, sample repository with low test coverage.",
   "private": true,
   "main": "src/cli.js",
